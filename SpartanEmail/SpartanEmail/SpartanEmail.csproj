@@ -8,4 +8,9 @@
     <PackageReference Include="Sendgrid" Version="9.9.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\SpartanExtensions\SpartanExtensions\SpartanExtensions\SpartanExtensions.csproj" />
+    <ProjectReference Include="..\..\..\SpartanSettings\SpartanSettings\SpartanSettings\SpartanSettings.csproj" />
+  </ItemGroup>
+
 </Project>
