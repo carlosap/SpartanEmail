@@ -2,15 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <PackageIconUrl>https://raw.githubusercontent.com/carlosap/content/master/images/spartan_32x32.png</PackageIconUrl>
+    <Authors>Carlos A. Perez</Authors>
+    <Description>Cross-platform base framework for sending email. Api utilizes SendGrid and Keys are require.</Description>
+    <PackageProjectUrl>https://github.com/carlosap/SpartanEmail</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/carlosap/SpartanEmail</RepositoryUrl>
+    <PackageReleaseNotes>Cross-platform base framework for sending email. Api utilizes SendGrid and Keys are require.</PackageReleaseNotes>
+    <PackageTags>spartan app email spartan email</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Sendgrid" Version="9.9.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\SpartanExtensions\SpartanExtensions\SpartanExtensions\SpartanExtensions.csproj" />
-    <ProjectReference Include="..\..\..\SpartanSettings\SpartanSettings\SpartanSettings\SpartanSettings.csproj" />
+    <PackageReference Include="SpartanAppExtensions" Version="1.0.1" />
+    <PackageReference Include="SpartanSettings" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

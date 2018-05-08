@@ -1,6 +1,5 @@
-﻿using SpartanSettings;
-using SpartanExtensions.Strings;
-
+﻿using SpartanExtensions.Strings;
+using SpartanSettings;
 namespace SpartanEmail
 {
     public class Config
